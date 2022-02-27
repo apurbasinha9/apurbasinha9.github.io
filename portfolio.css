@@ -24,6 +24,11 @@
 
     .top .buttons{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
+
+    .secondImg{
+        margin-top: 10px;
+    }
+
 }
