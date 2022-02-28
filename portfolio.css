@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Lucida Console", "Courier New", monospace;
 
 }
@@ -21,21 +21,66 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.bottom {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.bottom h3 {
+    color: #FF8301;
+}
+
+.fontAwesome a {
+    text-decoration: none !important;
+}
+
+.fa {
+    padding: 17px;
+    font-size: 30px !important;
+    border-radius: 30%;
+    margin: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+
+}
 
 
-@media (max-width:768px){
-    .top{
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #fff;
+    color: black;
+}
+
+
+
+@media (max-width:768px) {
+    .top {
         flex-direction: column;
     }
 
-    .top .buttons{
+    .top .buttons {
         display: flex;
         flex-direction: column;
     }
 
-    .jumbotron{
+    .jumbotron {
         margin-top: 15px !important;
-        align-items: center;
+    }
+
+    .email {
+        margin-top: 10px;
+        text-align: center;
     }
 
 }
