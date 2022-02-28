@@ -21,6 +21,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+
 .bottom {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -62,6 +64,11 @@ body {
     color: black;
 }
 
+.aboutme b {
+    text-decoration: underline;
+}
+
+
 
 
 @media (max-width:768px) {
@@ -83,4 +90,15 @@ body {
         text-align: center;
     }
 
+    .projectRow1 .col {
+        margin-top: 9px !important;
+    }
+
+    /* .projectRow2 .col {
+        margin-top: 9px !important;
+    } */
+
+    .workRow .col {
+        margin-top: 9px !important;
+    }
 }
