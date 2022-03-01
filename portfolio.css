@@ -1,6 +1,7 @@
 body {
     font-family: "Lucida Console", "Courier New", monospace;
-
+    background: url("images/background.jpg");
+    background-size: cover;
 }
 
 .top {
