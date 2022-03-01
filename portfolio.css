@@ -28,8 +28,13 @@ body {
     color: white;
 }
 
+.about {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
 .bottom h3 {
-    color: #FF8301;
+    color: #FFC107;
 }
 
 .fontAwesome a {
@@ -68,10 +73,18 @@ body {
     text-decoration: underline;
 }
 
+.img-thumbnail {
+    background: #FFC107 !important;
+    border: 1px solid #FFC107 !important;
+}
 
 
 
 @media (max-width:768px) {
+    .myimage {
+        margin-top: 27px;
+    }
+
     .top {
         flex-direction: column;
     }
@@ -94,9 +107,7 @@ body {
         margin-top: 9px !important;
     }
 
-    /* .projectRow2 .col {
-        margin-top: 9px !important;
-    } */
+
 
     .workRow .col {
         margin-top: 9px !important;
