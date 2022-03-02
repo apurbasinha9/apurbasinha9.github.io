@@ -37,18 +37,20 @@
                     <div class="modal" tabindex="-1" role="dialog" id="resumemodal">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">My Resume</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                                <div class="modal-header border-0">
+                                    <h5 class="modal-title text-warning">My Resume</h5>
+
                                 </div>
-                                <div class="modal-body">
-                                    <img src="images/resume.png" class="rounded mx-auto d-block shadow rounded"
+                                <div class="modal-body border-top-0">
+                                    <img src="images/resume.jpg" class="rounded mx-auto d-block shadow rounded"
                                         style="width: 100%;height: 100%">
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <div class="modal-footer border-0">
+                                    <button type="button" class="btn btn-outline-danger d-block"
+                                        data-dismiss="modal">Close</button>
+                                    <a href="myresume.pdf" target="_blank" class="btn btn-outline-success">Download
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -65,16 +67,15 @@
     <div class="container about mt-4">
         <div class="row">
             <div class="col-md-4 my-auto">
-                <img src="images/image2.jpg"
-                    class="myimage rounded mx-auto d-block shadow-lg rounded img-thumbnail img-fluid"
+                <img src="images/image2.jpg" class="myimage rounded mx-auto d-block shadow-lg rounded img-fluid"
                     style="width: 310px;height: 300px;">
             </div>
             <div class="col-md-8 mt-4 ">
-                <div class="jumbotron shadow-lg rounded border ">
+                <div class="jumbotron ">
                     <div class="row d-flex justify-content-center">
-                        <h1 class="display-4 text-primary font-weight-bold">About Me!</h1>
+                        <h1 class="display-4 text-white font-weight-bold">About Me!</h1>
                     </div>
-                    <p class="lead text-secondary text-center aboutme">Hi, welcome to my portfolio. I am <b>Apurba
+                    <p class="lead text-white text-center aboutme">Hi, welcome to my portfolio. I am <b>Apurba
                             Sinha</b>,
                         a
                         fourth-year
@@ -90,11 +91,12 @@
                             web developer for an organization and as a front-end developer at the university.</b>
                     </p>
                     <hr class="my-4">
-                    <p class="lead text-secondary"> To know more I have
+                    <p class="lead text-white"> To know more I have
                         attached my
                         linkedin profile below...</p>
-                    <a class="btn btn-outline-secondary px-5 d-block"
-                        href="https://www.linkedin.com/in/apurba-sinha-199a3b224/">Linkedin</a>
+                    <a class="btn btn-outline-danger px-5 d-block"
+                        href="https://www.linkedin.com/in/apurba-sinha-199a3b224/"><b
+                            style="color: white;">Linkedin</b></a>
                 </div>
             </div>
 
@@ -107,13 +109,14 @@
     <div class="container mt-5 mb-5">
 
         <div class="accordion shadow-lg rounded" id="accordionExample">
-            <div class="card">
+            <div class="card headCard">
                 <div class="card-header firstCardHead" id="headingOne">
                     <h2 class="mb-0 d-flex justify-content-center">
-                        <button class="btn btn-outline-danger text-uppercase" type="button" data-toggle="collapse"
-                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Relevant Work Experience <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                        <button class="btn btn-outline-danger text-white text-uppercase" type="button"
+                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            <b>Relevant Work Experience</b> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
                             </svg>
@@ -128,9 +131,9 @@
                             <div class="col d-flex justify-content-center">
                                 <div class="card shadow-lg" style="width: 18rem;">
                                     <img class="card-img-top" src="images/fpf.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Full Stack Web Developer</h5>
-                                        <p class="card-text">Food Producers Forum</p>
+                                    <div class="card-body border border-top-0 border-secondary">
+                                        <h5 class="card-title text-white">Full Stack Web Developer</h5>
+                                        <p class="card-text text-white">Food Producers Forum</p>
                                         <a href="https://fpfmembership.herokuapp.com/" class="btn btn-danger d-block">Go
                                             To Website</a>
                                     </div>
@@ -140,9 +143,9 @@
                             <div class="col d-flex justify-content-center">
                                 <div class="card shadow-lg" style="width: 18rem;">
                                     <img class="card-img-top" src="images/retrivum.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Frontend Developer(React.js)</h5>
-                                        <p class="card-text">Department of Computer Science</p>
+                                    <div class="card-body border border-top-0 border-secondary">
+                                        <h5 class="card-title text-white">Frontend Developer(React.js)</h5>
+                                        <p class="card-text text-white">Department of Computer Science</p>
                                         <a href="https://retrievium.com/" class="btn btn-danger d-block">Go To
                                             Website</a>
                                     </div>
@@ -155,14 +158,14 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card headCard">
                 <div class="card-header firstCardHead" id="headingTwo">
                     <h2 class="mb-0 d-flex justify-content-center">
-                        <button class="btn btn-outline-secondary collapsed  text-uppercase" type="button"
+                        <button class="btn btn-outline-info text-white collapsed  text-uppercase" type="button"
                             data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                             aria-controls="collapseTwo">
-                            Projects <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-arrow-down" viewBox="0 0 16 16">
+                            <b>Projects</b> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
                             </svg>
@@ -172,16 +175,16 @@
 
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
 
-                    <div class="card-body">
+                    <div class="card-body ">
 
                         <div class="row d-flex justify-content-center projectRow1">
 
                             <div class="col d-flex justify-content-center">
                                 <div class="card shadow-lg" style="width: 18rem;">
                                     <img class="card-img-top" src="images/zoombie.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Zombie Shooter</h5>
-                                        <p class="card-text">Using Unreal Engine 4</p>
+                                    <div class="card-body border border-top-0 border-secondary">
+                                        <h5 class="card-title text-white">Zombie Shooter</h5>
+                                        <p class="card-text text-white">Using Unreal Engine 4</p>
                                         <a href="#" class="btn btn-success d-block">Go To Github</a>
                                     </div>
                                 </div>
@@ -190,9 +193,9 @@
                             <div class="col d-flex justify-content-center">
                                 <div class="card shadow-lg" style="width: 18rem;">
                                     <img class="card-img-top" src="images/todo.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">User To-do App</h5>
-                                        <p class="card-text">Using React and Bootstrap</p>
+                                    <div class="card-body border border-top-0 border-secondary">
+                                        <h5 class="card-title text-white">User To-do App</h5>
+                                        <p class="card-text text-white">Using React and Bootstrap</p>
                                         <a href="https://github.com/apurbasinha9/Todo-app-react.js"
                                             class="btn btn-success d-block">Go To Github</a>
                                     </div>
@@ -202,9 +205,9 @@
                             <div class="col d-flex justify-content-center">
                                 <div class="card shadow-lg" style="width: 18rem;">
                                     <img class="card-img-top" src="images/ricochetrobot.jpeg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Ricochets Robot</h5>
-                                        <p class="card-text">Java</p>
+                                    <div class="card-body border border-top-0 border-secondary">
+                                        <h5 class="card-title text-white">Ricochets Robot</h5>
+                                        <p class="card-text text-white">Java</p>
                                         <a href="https://github.com/jessehanlon/comp2005-winter20-group4"
                                             class="btn btn-success d-block">Go To Github</a>
                                     </div>
@@ -217,9 +220,9 @@
                             <div class="col d-flex justify-content-center">
                                 <div class="card shadow-lg" style="width: 18rem;">
                                     <img class="card-img-top" src="images/portfolioPic.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Portfolio Website</h5>
-                                        <p class="card-text">Bootstrap, CSS, JS</p>
+                                    <div class="card-body border border-top-0 border-secondary">
+                                        <h5 class="card-title text-white">Portfolio Website</h5>
+                                        <p class="card-text text-white">Bootstrap, CSS, JS</p>
                                         <a href="https://github.com/apurbasinha9/apurbasinha9.github.io"
                                             class="btn btn-success d-block">Go To Github</a>
                                     </div>
@@ -230,14 +233,14 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card headCard">
                 <div class="card-header firstCardHead" id="headingThree">
                     <h2 class="mb-0 d-flex justify-content-center">
-                        <button class="btn btn-outline-success collapsed  text-uppercase" type="button"
+                        <button class="btn btn-outline-success text-white collapsed  text-uppercase" type="button"
                             data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
                             aria-controls="collapseThree">
-                            Skills <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-arrow-down" viewBox="0 0 16 16">
+                            <b>Skills</b> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                     d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
                             </svg>
