@@ -1,5 +1,5 @@
 body {
-    font-family: "Lucida Console", "Courier New", monospace;
+
     background: url("images/background.jpg");
     background-size: cover;
 }
@@ -9,12 +9,21 @@ body {
 }
 
 .myimage {
-    border: 2px solid #FFC107;
+    border: 2px solid #DC3545;
 }
 
 .modal-content {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
+
+.serviceCard {
+    border: none !important;
+}
+
+.projectCards {
+    border: none !important;
+}
+
 
 .top .btn {
     color: white;
@@ -44,19 +53,29 @@ body {
     color: white !important;
 }
 
+.workRow {
+    background-color: #fff !important;
+}
+
+
+
 .bottom {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+}
+
+.bottom h3 {
+    color: #FFC107;
 }
 
 .about {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-.bottom h3 {
-    color: #FFC107;
+.services .fa-desktop {
+    font-size: 50px !important;
 }
+
 
 .fontAwesome a {
     text-decoration: none !important;
@@ -115,14 +134,7 @@ body {
         flex-direction: column;
     }
 
-    /* .jumbotron {
-        margin-top: 15px !important;
-        background: none !important;
-    } */
 
-    /* .lead {
-        color: rgb(226, 218, 218) !important;
-    } */
 
     .border {
         border: 0px solid !important
@@ -133,9 +145,6 @@ body {
         color: white;
     }
 
-    /* .jumbotron h1 {
-        color: white !important;
-    } */
 
     .email {
         margin-top: 10px;
