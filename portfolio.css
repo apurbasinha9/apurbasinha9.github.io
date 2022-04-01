@@ -9,7 +9,7 @@ body {
 }
 
 .myimage {
-    border: 2px solid #DC3545;
+    border: 2px solid #2e292a;
 }
 
 .modal-content {
@@ -54,10 +54,28 @@ body {
 }
 
 .workRow {
-    background-color: rgb(18, 127, 236) !important;
+    background-color: #28A745 !important;
 }
 
+.skill1 {
+    background-color: #2C3E50 !important;
+}
 
+.skill2 {
+    background-color: #273746 !important;
+}
+
+.skill3 {
+    background-color: #212F3D !important;
+}
+
+.skill4 {
+    background-color: #1C2833 !important;
+}
+
+.skill5 {
+    background-color: #17202A !important;
+}
 
 .bottom {
     background-color: rgba(0, 0, 0, 0.5);
